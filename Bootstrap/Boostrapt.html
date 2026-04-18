@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="contenedorFluid container-fluid">
+      <a class="marca navbar-brand" href="#">Kojima Productios</a>
+      <button class="botonMenu navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="botonMenuIcono navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="navItem nav-item">
+            <a class="nav-link active" aria-current="page" href="#">NEWS</a>
+          </li>
+          <li class="navItem menuDesplegable nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="menuDesplegable dropdown-menu">
+              <li><a class="opcionMenu dropdown-item" href="#">Death Stranding 2: On the beach</a></li>
+              <li><a class="opcionMenu dropdown-item" href="#">Death Stranding Directors Cut</a></li>
+              <li>
+                <hr class="lineaSeparadora dropdown-divider">
+              </li>
+              <li><a class="opcionMenu dropdown-item" href="#">Death Stranding - ps4</a></li>
+            </ul>
+          </li>
+          <li class="navItem nav-item">
+            <a class="nav-link" href="#careers">CAREERS</a>
+          </li>
+
+          <li class="navItem nav-item">
+            <a class="navLink nav-link disabled" aria-disabled="true">ANIMATION</a>
+          </li>
+          <li class="navItem nav-item">
+            <a class="navLink nav-link disabled" aria-disabled="true">FAQ</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="Carrusel" class="carrusel carousel slide" data-bs-ride="carousel">
+    <div class="carruselIndicadores carousel-indicators">
+      <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carruselInterior carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/Ds.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>DEATH STRANDING 2: ON THE BEACH is out now on PC</h5>
+          <button type="button" class="btn" data-bs-toggle="button">Read More</button>
+        </div>
+      </div>
+        <div class="carruselItem carousel-item">
+          <img src="./assets/Anniversary.jpg" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carruselItem carousel-item">
+          <img src="./assets/Beyond.png" class="d-block w-100" alt="Imagen 3">
+        </div>
+      </div>
+      <button class="carruselControlAnterior carousel-control-prev" type="button" data-bs-target="#Carrusel"
+        data-bs-slide="prev">
+        <span class="carruselControlAnteriorIcon carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="oculto visually-hidden">Previous</span>
+      </button>
+      <button class="carruselControlProximo carousel-control-next" type="button" data-bs-target="#Carrusel"
+        data-bs-slide="next">
+        <span class="carruselControlProximoIcon carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="oculto visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <p aria-hidden="true">
+  <span></span>
+</p>
+
+
+
+
+<div class="container mb-5 d-flex align-items-center" id="Careers" style="min-height: 350px; background-image: url('./assets/Careers.jpg'); background-size: cover; background-position: center; box-shadow: 0 4px 10px rgba(0,0,0,0.5); margin-left: 13.1% ;">
+  
+  <div class="container-fluid">
+    
+    <div style="max-width: 45rem; padding-left: 1px;">
+      
+      <div class="bg-white text-dark d-inline-block px-3 py-1 mb-2" >
+        <h4 class="m-0 fw-bold" style="font-family: 'Arial Black', 'Impact', sans-serif;">CAREERS</h4>
+      </div>
+      
+      <h2 class="text-white mb-2" style="font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; font-size: 2.1rem;">
+        LOOKING FOR A CAREER IN GAME DEVELOPMENT?
+      </h2>
+      
+      <p class="text-white mb-4  " style="font-size: 1rem;">
+        Please check out our latest openings, as we are always searching for skilled talent to join our studio.
+      </p>
+      
+      <a href="#" class="btn fw-bold px-4 py-2 text-dark rounded-0 border border-dark border-2" style="background: linear-gradient(to bottom, #ffffff 0%, #b3b3b3 100%); font-family: 'Arial Black', sans-serif; transform: skewX(-15deg);">
+        <span style="display:inline-block; transform: skewX(15deg);">READ MORE</span>
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="container mb-5 d-flex align-items-center" id="Careers" style="min-height: 350px; background-image: url('./assets/compañia.jpg'); background-size: cover; background-position: center; box-shadow: 0 4px 10px rgba(0,0,0,0.5); margin-right: 13.1% ;">
+  
+  <div class="container-fluid">
+    
+    <div style="max-width: 45rem; padding-left: 1px;">
+      
+      <div class="bg-white text-dark d-inline-block px-3 py-1 mb-2" >
+        <h4 class="m-0 fw-bold" style="font-family: 'Arial Black', 'Impact', sans-serif;">COMPANNY</h4>
+      </div>
+      
+      <h2 class="text-white mb-2" style="font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; font-size: 2.1rem;">
+        PUSHING THE BOUNDARIES OF INNOVATION
+      </h2>
+      
+      <p class="text-white mb-4 " style="font-size: 1rem;">
+        From Sapiens to Ludens: Learn more about our studio journey.
+      </p>
+      
+      <a href="#" class="btn fw-bold px-4 py-2 text-dark rounded-0 border border-dark border-2" style="background: linear-gradient(to bottom, #ffffff 0%, #b3b3b3 100%); font-family: 'Arial Black', sans-serif; transform: skewX(-15deg);">
+        <span style="display:inline-block; transform: skewX(15deg);">READ MORE</span>
+      </a>
+      
+    </div>
+  </div>
+</div>
+<div> 
+  <p> Preguntas recientes </p>
+</div>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Quienes somos
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Tu mama.</strong> Imagina mucho texto aqui.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Que hacemos?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Pues juegos dahhh.</strong> Lit lo dice toda la pagina amigo...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Quiero conocer a Kojima
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Todos quieren, ntp.</strong> Pero no pasara :C
+      </div>
+    </div>
+  </div>
+</div>
+    <footer class="pieDePagina bg-dark text-white py-5 mt-4">
+  <div class="contenedor container text-center">
+    
+    <div class="enlacesFooter d-flex justify-content-center flex-wrap gap-4 mb-4 fw-bold" style="font-size: 0.9rem;">
+      <a href="#" class="enlace text-white text-decoration-none">Join our Newsletter</a>
+      <a href="#" class="enlace text-white text-decoration-none">FAQ</a>
+      <a href="#" class="enlace text-white text-decoration-none">Terms of Use</a>
+      <a href="#" class="enlace text-white text-decoration-none">Cookie Policy</a>
+      <a href="#" class="enlace text-white text-decoration-none">Contact Us</a>
+    </div>
+
+    <p class="textoDerechos m-0 text-white-50" style="font-size: 0.8rem;">
+      &copy; KOJIMA PRODUCTIONS Co., Ltd. 2022 All Rights Reserved
+    </p>
+    
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
