@@ -1,0 +1,35 @@
+*{
+    margin-top:50px;
+    
+}
+.Calculadora{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculadoraInfo{
+
+
+    padding: 70px;
+    width: 25vw;
+    background-color: #9c8deeb0;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.calculadoraInfo button{
+    width: 5vw;
+    height: 5vh;
+    background-color: #2F3061;
+    border-radius: 5px;
+    color: #DFDFDF;
+    
+}
+
