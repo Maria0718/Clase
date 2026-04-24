@@ -66,8 +66,7 @@
 
 .cielo h5, .cielo p {
     position: relative;
-    z-index: 10; /* Asegura que el texto flota por encima */
-}
+    z-index: 10; 
 
 .cielo canvas {
     position: absolute;
@@ -75,7 +74,7 @@
     left: 0;
     width: 100% !important;
     height: 100% !important;
-    z-index: 0; /* Coloca el cielo atrás */
+    z-index: 0; 
     display: block;
     outline: none;
 }
