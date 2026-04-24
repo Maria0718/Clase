@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+                "three/webgpu": "https://unpkg.com/three@0.164.0/build/three.webgpu.js",
+                "three/tsl": "https://unpkg.com/three@0.164.0/build/three.tsl.js",
+                "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    
+    <header class="navbar-container" style="background-color: var(--bg-light); border-bottom: 1px solid rgba(0,0,0,0.1); position: relative; z-index: 10;">
+        <nav class="navbar navbar-expand-lg navbar-light container custom-navbar">
+            <a class="navbar-brand fw-bold fs-3 logo-text" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Navigation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Navigation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Navigation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Navigation</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   
+    <div id="hero-container" style="position: relative; overflow: hidden; width: 100vw; height: 100vh;">
+        <section class="hero-section" style="position: relative; z-index: 1; height: 100%; display: flex; align-items: center; justify-content: center; max-width: none;">
+            <div class="hero-content glass-panel" style="max-width: 800px; width: 100%;">
+                <h1 class="hero-title text-white">COMPELLING HEADLINE<br>HERE ABOVE THE FOLD</h1>
+                <p class="subhero-title text-white">Welcome message, tagline or elevator speech. Who do you serve and what do you offer them?<br>The single most important thing you want your website visitor to know.</p>
+                <button class="btn-outline-custom text-white">CTA BUTTON</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="divider"></div>
+
+    <main class="main-content">
+       
+        <section class="subheading-section">
+            <h2 class="subheading-title">ENGAGING SUBHEADING. ADDRESS YOUR<br>VISITORS PROBLEMS.</h2>
+            <p class="subheading-text">Spark the interest of your ideal client. Nulla quis lorem ut libero malesuada feugiat. Proin<br>eget tortor risus. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget<br>tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        </section>
+
+        
+        <section class="introduce-section">
+            <div class="introduce-container">
+                <div class="introduce-image" id="abstraccion-container" style="position: relative; overflow: hidden; padding: 0;">
+                </div>
+                <div class="introduce-text glass-panel">
+                    <h3>INTRODUCE YOURSELF</h3>
+                    <p>Who you are, what you do. Copy that engages<br>your website visitor and leaves them wanting<br>to know more about you.</p>
+                    <button class="btn-outline-custom">LINK TO ABOUT</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="offerings-section container">
+            <div class="row text-center">
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card border-0">
+                        <div class="card-img-placeholder mx-auto"></div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase mt-3 fs-6 fw-bold">Service One</h5>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card border-0">
+                        <div class="card-img-placeholder mx-auto"></div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase mt-3 fs-6 fw-bold">Service Two</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card border-0">
+                        <div class="card-img-placeholder mx-auto"></div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase mt-3 fs-6 fw-bold">Service Three</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="social-proof-section">
+            <div class="social-proof-container">
+                <h4>SOCIAL PROOF</h4>
+                <p>Testimonials or client/customer reviews</p>
+            </div>
+        </section>
+
+        
+        <section class="extras-section">
+            <h4>EXTRAS</h4>
+            <p>lead magnet, newsletter, blog posts etc.</p>
+        </section>
+    </main>
+
+   
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">QUICK LINK</a>
+                <a href="#">QUICK LINK</a>
+                <a href="#">QUICK LINK</a>
+            </div>
+            <div class="footer-logo">
+                <span class="fs-3 fw-bold">LOGO</span>
+            </div>
+            <div class="footer-social text-end">
+                <a href="#">SOCIAL MEDIA</a>
+                <a href="#">CONTACT</a>
+                <a href="#">LOCATION</a>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>www.evermorecreativeltd.com</p>
+    </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+   
+    <script type="module" src="hero.js"></script>
+    <script type="module" src="abstraccion.js"></script>
+</body>
+</html>

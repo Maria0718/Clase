@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Wireframe Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand brand-name" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Advantages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Information</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Benefits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="hero-section">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h1 class="hero-title">Website Wireframe<br>Landing Page</h1>
+            </div>
+            <div class="hero-image">
+                <div class="img-placeholder large" id="hero-container" style="position: relative; overflow: hidden;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="stats-bar">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h4>Advantages</h4>
+                <p>There are many</p>
+            </div>
+            <div class="stat-item">
+                <h4>Benefits</h4>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="stat-item">
+                <h4>Profits</h4>
+                <p>Lorem ipsum dolor sit</p>
+            </div>
+            <div class="stat-item">
+                <h4>Dividends</h4>
+                <p>There are many</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="content-section" id="advantages" style="position: relative; overflow: hidden;">
+       
+        <div id="abstraccion-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;"></div>
+
+        <div class="section-header" style="position: relative; z-index: 1;">
+            <h2>Advantages</h2>
+            <p class="section-desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in form.</p>
+        </div>
+
+        <div id="carouselAdvantages" class="carousel slide" data-bs-ride="carousel" style="position: relative; z-index: 1;">
+            <div class="carousel-inner px-4">
+
+                
+                <div class="carousel-item active">
+                    <div class="cards-row">
+                        <div class="adv-card">
+                            <h5>Item One</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. There are many variations of passages.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Two</h5>
+                            <p>There are many variations of passages of Lorem Ipsum available majority have suffered alteration.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Three</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur with alteration in form, and there are many variations.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Four</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur and there are many variations of Lorem passages.</p>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="carousel-item">
+                    <div class="cards-row">
+                        <div class="adv-card">
+                            <h5>Item Five</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. There are many variations.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Six</h5>
+                            <p>There are many variations of passages of Lorem Ipsum available, majority have suffered.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Seven</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur with alteration in form variations of passages.</p>
+                        </div>
+                        <div class="adv-card">
+                            <h5>Item Eight</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur and there are many variations of passages.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-btn-row">
+                <button class="btn btn-outline-light btn-sm carousel-more" data-bs-target="#carouselAdvantages" data-bs-slide="next">More Info</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="content-section info-section" id="information">
+        <div class="section-header">
+            <h2>Information</h2>
+        </div>
+
+        <div id="carouselInfo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner px-4">
+
+            
+                <div class="carousel-item active">
+                    <div class="info-cards-row">
+                        <div class="info-card">
+                            <div class="img-placeholder medium" id="scene-info-1">
+                            </div>
+                            <p class="info-name">Some Name</p>
+                            <p class="info-sub">Here</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="img-placeholder medium" id="scene-info-2">
+                            </div>
+                            <p class="info-name">Party Name</p>
+                            <p class="info-sub">Here</p>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="carousel-item">
+                    <div class="info-cards-row">
+                        <div class="info-card">
+                            <div class="img-placeholder medium">
+                                <span class="placeholder-icon">&#9974;</span>
+                            </div>
+                            <p class="info-name">Other Name</p>
+                            <p class="info-sub">Here</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="img-placeholder medium">
+                                <span class="placeholder-icon">&#9974;</span>
+                            </div>
+                            <p class="info-name">Another Name</p>
+                            <p class="info-sub">Here</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+         
+            <div class="carousel-indicators info-indicators">
+                <button type="button" data-bs-target="#carouselInfo" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselInfo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselInfo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="benefits-section" id="benefits">
+        <div class="benefits-inner">
+            <div class="benefits-text">
+                <h2>Special Advertising<br>Benefits For You</h2>
+                <p class="benefits-lead">The strength of Lorem ipsum is its weakness: it doesn't communicate. To you, designing a website around placeholder text is unacceptable.</p>
+                <div class="benefits-cols">
+                    <div class="benefits-col">
+                        <h6>Coming full circle, the internet's working</h6>
+                        <p>Lorem ipsum doesn't look like it was designed for humans. There are a few more variations of passages there are many variations.</p>
+                    </div>
+                    <div class="benefits-col">
+                        <h6>Below are the original Latin passages from which Lorem</h6>
+                        <p>Lorem ipsum is to lorem as lorem is to ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. There are many variations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits-image">
+                <div class="img-placeholder large vertical" id="scene-benefits">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="custom-footer">
+        <div class="container-fluid px-5">
+            <div class="row py-5">
+                <div class="col-lg-3 mb-4">
+                    <h5 class="footer-brand">Company Name</h5>
+                    <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. There are many variations.</p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Advantages</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Information</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="footer-heading">Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="footer-heading">Social</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="footer-heading">Contact</h6>
+                    <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <p class="footer-text">info@companyname.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <p>&copy; 2025 Company Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="hero.js"></script>
+    <script type="module" src="abstraccion.js"></script>
+    <script type="module" src="quieneseran.js"></script>
+</body>
+</html>
+
+<!-- // Leemos el tamaño exacto del <div>
+const ancho = contenedor.clientWidth;
+const alto = contenedor.clientHeight;
+
+// Configuramos la cámara y el renderizador para ese tamaño
+camera = new THREE.PerspectiveCamera( 20, ancho / alto, 1, 50000 );
+renderer.setSize( ancho, alto );
+
+// Hacemos que el canvas sea 100% responsivo a su caja
+renderer.domElement.style.width = '100%';
+renderer.domElement.style.height = '100%';
+
+// ¡La magia final! Metemos el canvas de Three.js dentro de la caja HTML
+contenedor.appendChild( renderer.domElement ); -->
